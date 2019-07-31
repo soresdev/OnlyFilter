@@ -46,6 +46,11 @@ public class Command_filter implements CommandExecutor {
         if(sender instanceof Player){
             Player player = (Player) sender;
 
+            if(!player.hasPermission("onlyfilter.filter")){
+                MessageUtil.noPermission(player);
+                return true;
+            }
+
             if(args.length == 0){
                 MessageUtil.sendList(player, usage);
                 return true;
