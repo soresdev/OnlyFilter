@@ -1,0 +1,8 @@
+filtered_words:
+  - 'author'
+filtered_phrases:
+  - 'I made this plugin'
+replaceable_words:
+  - 'sores'
+replaceable_phrases:
+  - 'sores made this plugin'

@@ -1,0 +1,6 @@
+prefix: '&8[&c&lFILTER&8] '
+
+no_permission: '&cYou do not have permission to use this command.'
+reload: '&aSuccessfully reloaded the %file% file for OnlyFilter.'
+message_filtered: '&c%player% &7tried to say &c"%filtered%".'
+message_replaced: '&7replaced &c"%replaced%" &7from: &c%player%.'

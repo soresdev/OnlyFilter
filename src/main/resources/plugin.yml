@@ -1,0 +1,10 @@
+name: OnlyFilter
+main: me.sores.onlyfilter.OnlyFilter
+version: 1.0
+author: sores
+commands:
+  filter:
+    description: Base command for OnlyFilter.
+  ofreload:
+    description: Command to reload the files of OnlyFilter.
+    aliases: [onlyfilterload, onlyreload, filterreload]

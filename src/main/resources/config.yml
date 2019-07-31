@@ -1,0 +1,9 @@
+options:
+  filter:
+    enabled: true
+    mode: CANCEL
+  exempt:
+    enabled: true
+    users:
+      - 'sores'
+      - 'yournamehere'
